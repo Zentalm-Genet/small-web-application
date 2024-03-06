@@ -1,4 +1,4 @@
-# Module 4 Assessment
+# small web application
 
 This project is a small web application where users can receive compliments, fortunes, and access additional features for inspiration and motivation.
 
