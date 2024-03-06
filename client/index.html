@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <main class="maincontainer">
+      <section id = "randomFortuneSection">
+        <h1>Random Fortune Generator</h1>
+        <button id="complimentButton">Get A compliment</button>
+        <button id="newfortune">Get A Fortune </button>
+      </section>
+        
+      <h1>Inspiration for Success</h1>
+      <form>
+          <input 
+          type='text'
+          id="inspirationlname"
+          placeholder="What is the name of inspirer?"/>
+          <input 
+          type='text'
+          id="inspiringwords"
+          placeholder="What's the Inspiring quotes?"/>
+      <input 
+          type='text'
+          id="img"
+          placeholder='Paste an Inspire quotes image URL'/>
+  
+          <section id="ratings-container">
+              <p>Rate the Inspiring:</p>
+              <div id="radio-container">
+                  <label for="one">
+                      <input
+                          type="radio"
+                          name="ratings"
+                          value="1"
+                          id="one"/>
+                      1
+                  </label>
+                  <label for="two">
+                      <input
+                          type="radio"
+                          name="ratings"
+                          value="2"
+                          id="two"/>
+                      2
+                  </label>
+                  <label for="three">
+                      <input
+                          type="radio"
+                          name="ratings"
+                          value="3"
+                          id="three"/>
+                      3
+                  </label>
+                  <label for="four">
+                      <input
+                          type="radio"
+                          name="ratings"
+                          value="4"
+                          id="four"/>
+                      4
+                  </label>
+                  <label for="five">
+                      <input
+                          type="radio"
+                          name="ratings"
+                          value="5"
+                          id="five"/>
+                      5
+                  </label>
+              </div>
+          </section>
+  
+          <button id="addinspire">Add Inspire</button>
+      </form>
+  
+      <section id="Inspire-container"></section>
+
+      <!--Goal tracker start-->
+
+      <div class="container">
+        <h1>Goal Tracker</h1>
+        <form id="goal-form">
+            <input type="text" id="goal-name" placeholder="Goal Name" required />
+            <input type="number" id="goal-progress" placeholder="Progress (%)" required />
+            <button type="submit">
+                Add Goal
+            </button>
+        </form>
+        <div class="goal-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Goal Name</th>
+                        <th>Progress (%)</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="goal-list"></tbody>
+            </table>
+            <div class="total-progress">
+                <strong>Total Progress:</strong>
+                <span id="total-progress">0%</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Health Tracker App-->
+
+    <div class="app">  
+        <h1>Health Tracker App</h1> 
+        <div class="inputs"> 
+            <div> 
+                <label for="water"> 
+                      Water Intake (in ml) 
+                  </label> 
+                <input id="water" type="number"> 
+            </div> 
+            <div> 
+                <label for="exercise"> 
+                      Exercise Duration (in min) 
+                  </label> 
+                <input id="exercise" type="number"> 
+            </div> 
+            <div> 
+                <label for="bloodsugerlevel"> 
+                      Blood Sugar Level (in mg/dL) 
+                  </label> 
+                <input id="bloodsugerlevel" type="number"> 
+            </div> 
+        </div> 
+        <button id="submit">Submit</button>
+         
+        <table class="healthTable"> 
+            <thead> 
+                <tr> 
+                    <th>Date</th> 
+                    <th>Water Intake <br> (in ml)</th> 
+                    <th>Exercise Duration <br> (in min)</th> 
+                    <th>Blood Sugar Level <br> (in mg/dL)</th> 
+                    <th>Edit</th> 
+                    <th>Delete</th> 
+                </tr> 
+            </thead> 
+            <tbody id="output"> 
+            </tbody> 
+        </table> 
+    </div> 
+      
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "words": "“Don't worry about failure; you only have to be right once!",
+      "name": "Drew Houston",
+      "rating": 4,
+      "imageURL" : "https://pbs.twimg.com/media/DbE6oW6UMAI3hlS.jpg"
+    },
+    {
+        "id": 2,
+        "words": "Make each day your masterpiece!",
+        "name": "Jon Wooden",
+        "rating": 3,
+        "imageURL" : "https://everydaypower.com/wp-content/uploads/2023/11/short-inspirational-quote-about-life-by-john-wooden-1.png"
+    },
+
+    {
+        "id": 3,
+        "words": "To invent, you need a good imagination and a pile of junk!",
+        "name": "Thmas Edison",
+        "rating": 5,
+        "imageURL" : "https://www.forbesindia.com/media/images/2023/May/img_207569_thomasedison.jpg"
+    },
+    {
+        "id": 4,
+        "words": "I have a dream that one day right there in Alabama little black boys and little black girls will be able to join hands with little white boys and white girls as sisters and brothers",
+        "name": "Martin Luther King Jr.",
+        "rating": 4,
+        "imageURL" :"https://parade.com/.image/t_share/MTkwNTc2MDAxNjM0MjE1ODA0/mlk-inspirational-quote.jpg"
+    },
+    {
+        "id": 5,
+        "words": "You can do it!",
+        "name": "Bob Talbert",
+        "rating": 5,
+        "imageURL" : "https://cdn.teachstarter.com/fileserver/2018/04/Teacher-Quotes_Blog1-1200x1200.png"
+    }
+]
