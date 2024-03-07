@@ -173,11 +173,10 @@ goalList.addEventListener('click', event => {
 
 
 //  Health Tracker App front end js
-// Assuming you have Axios included in your project
 
 const submitButton = document.getElementById('submit');
 
-submitButton.addEventListener('click', async () => {
+submitButton.addEventListener('click', () => {
     const water = document.getElementById('water').value;
     const exercise = document.getElementById('exercise').value;
     const bloodsugerlevel = document.getElementById('bloodsugerlevel').value;
@@ -194,8 +193,6 @@ submitButton.addEventListener('click', async () => {
             console.error(error);
         });
 });
-
-
 
 const displayHealth = health => {
     const healthList = document.getElementById('output');
